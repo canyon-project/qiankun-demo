@@ -7,7 +7,8 @@
     "dev": "pnpm -r --parallel dev",
     "build": "pnpm -r build",
     "serve": "node server.js",
-    "start": "pnpm build && pnpm serve"
+    "start": "pnpm build && pnpm serve",
+    "move-canyon-output-json": "node move-canyon-output-json.mjs"
   },
   "dependencies": {
     "express": "^5.1.0"
