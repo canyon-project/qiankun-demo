@@ -1,0 +1,15 @@
+{
+  "name": "qiankun-demo",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@10.13.0",
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "serve": "node server.js",
+    "start": "pnpm build && pnpm serve"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
