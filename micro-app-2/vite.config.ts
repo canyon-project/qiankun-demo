@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import qiankun from 'vite-plugin-qiankun'
 import istanbulPlugin from 'vite-plugin-istanbul'
 import canyonVitePlugin from '@canyonjs/vite-plugin'
+import path from 'node:path'
 
 const isProduction = process.env.NODE_ENV === 'production'
 
