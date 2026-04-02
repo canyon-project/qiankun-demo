@@ -17,7 +17,7 @@ export default defineConfig({
           istanbulPlugin({
             forceBuildInstrument: true,
           }),
-          canyonVitePlugin(),
+          canyonVitePlugin({ci:true, instrumentCwd: path.resolve('..')}),
         ]
       : []),
   ],
